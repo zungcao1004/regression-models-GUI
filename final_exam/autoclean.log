@@ -1,0 +1,26 @@
+22-04-2024 15:43:36.82 - INFO - Started validation of input parameters...
+22-04-2024 15:43:36.82 - INFO - Completed validation of input parameters
+22-04-2024 15:43:36.82 - INFO - Started handling of duplicates... Method: "AUTO"
+22-04-2024 15:43:36.83 - DEBUG - Deletion of 1435 duplicate(s) succeeded
+22-04-2024 15:43:36.83 - INFO - Completed handling of duplicates in 0.006429 seconds
+22-04-2024 15:43:36.83 - INFO - Started handling of missing values...
+22-04-2024 15:43:36.83 - DEBUG - 0 missing values found
+22-04-2024 15:43:36.83 - INFO - Completed handling of missing values in 0.001711 seconds
+22-04-2024 15:43:36.83 - INFO - Started handling of outliers... Method: "DELETE"
+22-04-2024 15:43:36.84 - DEBUG - Deletion of 9 outliers succeeded for feature "bmi"
+22-04-2024 15:43:36.89 - DEBUG - Deletion of 271 outliers succeeded for feature "smoker"
+22-04-2024 15:43:36.89 - DEBUG - Deletion of 46 outliers succeeded for feature "charges"
+22-04-2024 15:43:36.89 - INFO - Completed handling of outliers in 0.064763 seconds
+22-04-2024 15:43:36.89 - INFO - Skipped datetime feature conversion
+22-04-2024 15:43:36.89 - INFO - Started encoding categorical features... Method: "LABEL"
+22-04-2024 15:43:36.89 - INFO - Completed encoding of categorical features in 2e-06 seconds
+22-04-2024 15:43:36.89 - INFO - Started feature type conversion...
+22-04-2024 15:43:36.90 - DEBUG - Conversion to type INT succeeded for feature "age"
+22-04-2024 15:43:36.90 - DEBUG - Conversion to type INT succeeded for feature "sex"
+22-04-2024 15:43:36.90 - DEBUG - Conversion to type FLOAT succeeded for feature "bmi"
+22-04-2024 15:43:36.90 - DEBUG - Conversion to type INT succeeded for feature "children"
+22-04-2024 15:43:36.90 - DEBUG - Conversion to type INT succeeded for feature "smoker"
+22-04-2024 15:43:36.90 - DEBUG - Conversion to type INT succeeded for feature "region"
+22-04-2024 15:43:36.90 - DEBUG - Conversion to type FLOAT succeeded for feature "charges"
+22-04-2024 15:43:36.90 - INFO - Completed feature type conversion for 7 feature(s) in 0.007117 seconds
+22-04-2024 15:43:36.90 - INFO - AutoClean process completed in 0.087645 seconds
